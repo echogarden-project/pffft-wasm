@@ -21,19 +21,18 @@ source ./emsdk_env.sh
 cd ..
 ```
 
-Clone repository
+Clone repository:
 ```
 git clone https://github.com/echogarden-project/pffft-wasm
+cd pffft-wasm
 ```
 
-Non-SIMD build:
+Build with WASM SIMD disabled:
 ```
-cd pffft-wasm
 make
 ```
 
-SIMD build:
+Build with WASM SIMD enabled:
 ```
-cd pffft-wasm
 make SIMD=1
 ```
