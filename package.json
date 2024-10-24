@@ -1,13 +1,13 @@
 {
 	"name": "@echogarden/pffft-wasm",
-	"version": "0.3.0",
+	"version": "0.4.1",
 	"description": "PFFFT FFT library, compiled to WASM. Intended for use with Echogarden.",
 	"publishConfig": {
 		"access": "public"
 	},
 	"exports": {
-		".": "./dist/non-simd/pffft.cjs",
-		"./simd": "./dist/simd/pffft.cjs"
+		".": "./dist/non-simd/pffft.mjs",
+		"./simd": "./dist/simd/pffft.mjs"
 	},
 	"files": [
 		"src",
